@@ -1,5 +1,3 @@
-arc = read.csv("<file name>.csv",stringsAsFactors=FALSE,header=FALSE)
-colnames(test) = c("DAY","Logs")
 arc$DAY = strptime(arc$DAY, format="%m-%d-%y %H:%M")
 arc$weekday <- weekdays(as.Date(arc$DAY))
 arc$Hour = arc$DAY$hour
