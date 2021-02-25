@@ -1,0 +1,6 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+git config --global user.email "ingebarrios@gmail.com"
+git config --global user.name "Enrique Barrios"
